@@ -30,7 +30,13 @@ export const ServicesWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    max-width: 768px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 16px;
   }
 `;
 
@@ -51,6 +57,11 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    max-height: 150px;
+    width: 350px;
+  }
 `;
 
 export const ServicesIcon = styled.img`
@@ -58,6 +69,10 @@ export const ServicesIcon = styled.img`
   width: 160px;
   margin-bottom: 10px;
 
+  @media screen and (max-width: 768px) {
+    max-height: 60px;
+    max-width: 200px;
+  }
 `;
 
 export const ServicesH1 = styled.h1`
