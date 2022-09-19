@@ -27,7 +27,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1> Come Experience Relaxation Today!</HeroH1>
-        <HeroP>A wonderful getaway near you! Treat yourself you deserve it!</HeroP>
+        <HeroP>A wonderful getaway near you! Treat yourself you deserve it! Call today to find out more!</HeroP>
         <HeroBtnWrapper>
           <Button
             to='contact'
