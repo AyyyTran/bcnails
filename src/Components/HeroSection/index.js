@@ -26,11 +26,11 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1> Virtual Banking Made Easy</HeroH1>
-        <HeroP>Sign up for a new account today and receive $250 in credit towards your next payment!</HeroP>
+        <HeroH1> Come Experience Relaxation Today!</HeroH1>
+        <HeroP>A wonderful getaway near you! Treat yourself you deserve it!</HeroP>
         <HeroBtnWrapper>
           <Button
-            to='/signup'
+            to='contact'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary='true'
@@ -41,7 +41,7 @@ const HeroSection = () => {
             exact='true'
             offset={-80}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Book Now! {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

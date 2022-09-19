@@ -68,9 +68,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              dolla
+              BC Nails
             </SocialLogo>
-            <WebsiteRights>dolla © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>BCNails © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

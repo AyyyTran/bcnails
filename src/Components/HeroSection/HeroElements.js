@@ -36,6 +36,7 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  opacity: 0.60;
 `;
 
 export const VideoBg = styled.video`

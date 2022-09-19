@@ -18,7 +18,7 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
+          <ServicesH2>Manicures</ServicesH2>
           <ServicesP>
             We help reduce your fees and increase your overall
             revenue.
@@ -26,14 +26,30 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesH2>Pedicures</ServicesH2>
           <ServicesP>
             You can access our platform online anywhere in the world.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+          <ServicesH2>Acrylic</ServicesH2>
+          <ServicesP>
+            Unlock our special membership card that returns 5%
+            cashback.
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>Gel</ServicesH2>
+          <ServicesP>
+            Unlock our special membership card that returns 5%
+            cashback.
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>Nail Art</ServicesH2>
           <ServicesP>
             Unlock our special membership card that returns 5%
             cashback.
