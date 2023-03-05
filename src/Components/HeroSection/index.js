@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Video from '../../Videos/video.mp4';
+import Video from '../../Videos/video1.mp4';
 import {Button} from '../ButtonElements';
 import {
   HeroContainer,
@@ -21,24 +21,28 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer id='home'>
+    <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1> Come Experience Relaxation Today!</HeroH1>
-        <HeroP>A wonderful getaway near you! Treat yourself you deserve it! Call today to find out more!</HeroP>
+        <HeroH1> New Shared Location!</HeroH1>
+        <HeroP>
+          Double the beauty, double the fun! We're teaming up with Emotion
+          Rescue Hair to create a one-stop beauty destination!
+        </HeroP>
+        <HeroP>33323 Unit 3, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
         <HeroBtnWrapper>
           <Button
-            to='contact'
+            to="contact"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary='true'
-            dark='true'
+            primary="true"
+            dark="true"
             smooth={true}
             duration={500}
             spy={true}
-            exact='true'
+            exact="true"
             offset={-80}
           >
             Book Now! {hover ? <ArrowForward /> : <ArrowRight />}

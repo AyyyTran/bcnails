@@ -62,7 +62,7 @@ export const hours = {
   topLine: 'Available at Your Convenience!',
   headLine: 'Easy Consistent Schedule For You!',
   description:
-    'Open all week from 10AM-6PM for walk- ins/appointments. Sundays are appointment only. Feel free to call whenever to check availablity!',
+    "At our new location, we're committed to providing flexible hours that work around your schedule. Whether you're an early riser, a night owl, or need a weekend appointment, we've got you covered. Give us a call to learn more about our hours and schedule your next appointment today!",
   buttonLabel: 'Call Today!',
   imgStart: true,
   img: require('../../Images/svg-9.svg').default,

@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+
 https://bcnails.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -8,6 +9,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+
+install this on new project for the above^^
+npm install react-scripts --save
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
