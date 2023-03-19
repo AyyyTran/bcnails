@@ -31,7 +31,7 @@ const HeroSection = () => {
           Double the beauty, double the fun! We're teaming up with Emotion
           Rescue Hair to create a one-stop beauty destination!
         </HeroP>
-        <HeroP>33323 Unit 3, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
+        <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
         <HeroBtnWrapper>
           <Button
             to="contact"
