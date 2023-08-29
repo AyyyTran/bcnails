@@ -1,0 +1,29 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-container {
+  border: 1px solid #ccc;
+  text-align: center;
+  position: relative;
+}
+
+.image-wrapper {
+  padding-bottom: 150%; /* 1:1 aspect ratio (for example) */
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

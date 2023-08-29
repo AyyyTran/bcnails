@@ -30,7 +30,6 @@ const HeroSection = () => {
         <HeroP>
           We're teaming up with Emotion Rescue Hair to create a one-stop beauty
           destination! Located on South Fraser Way at Emotion Rescue Hair!
-          Across the street from The Mad Butcher!
         </HeroP>
         <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
         <HeroBtnWrapper>

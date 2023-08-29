@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
       <IconContext.Provider value={{color: '#fff'}}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to='/' onClick={toggleHome}>
+            <NavLogo to="/" onClick={toggleHome}>
               {' '}
               BC Nails{' '}
             </NavLogo>
@@ -48,11 +48,11 @@ const Navbar = ({toggle}) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to='about'
+                  to="about"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                 >
                   About
@@ -60,11 +60,11 @@ const Navbar = ({toggle}) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='services'
+                  to="services"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                 >
                   Services
@@ -72,11 +72,23 @@ const Navbar = ({toggle}) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='hours'
+                  to="gallery"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
+                  offset={-80}
+                >
+                  Gallery
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="hours"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
                   offset={-80}
                 >
                   Hours
@@ -84,11 +96,11 @@ const Navbar = ({toggle}) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='contact'
+                  to="contact"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                 >
                   Contact Us
@@ -96,7 +108,7 @@ const Navbar = ({toggle}) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to='contact'>Book Now!</NavBtnLink>
+              <NavBtnLink to="contact">Book Now!</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
