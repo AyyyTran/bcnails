@@ -26,12 +26,19 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1> New Shared Location!</HeroH1>
+        <HeroH1> Temporarily Closed!</HeroH1>
+        <HeroP>
+          I am out of the country until mid December! I will be taking
+          appointments when I am back. Feel free to message on Facebook to
+          schedule them now!
+        </HeroP>
+        <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
+        {/* <HeroH1> New Shared Location!</HeroH1>
         <HeroP>
           We're teaming up with Emotion Rescue Hair to create a one-stop beauty
           destination! Located on South Fraser Way at Emotion Rescue Hair!
         </HeroP>
-        <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
+        <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP> */}
         <HeroBtnWrapper>
           <Button
             to="contact"
