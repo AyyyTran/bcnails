@@ -26,11 +26,11 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1> Temporarily Closed!</HeroH1>
+        <HeroH1> We are going mobile!</HeroH1>
         <HeroP>
-          I am out of the country until mid December! I will be taking
-          appointments when I am back. Feel free to message on Facebook to
-          schedule them now!
+          BC Nails Salon can be done in person at the salon or even your own
+          home! Please message or call to see about having a spa day in your
+          home!
         </HeroP>
         <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
         {/* <HeroH1> New Shared Location!</HeroH1>
