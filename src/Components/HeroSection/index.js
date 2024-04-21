@@ -26,19 +26,11 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1> We are going mobile!</HeroH1>
+        <HeroH1>Call Any Time & Any Day!</HeroH1>
         <HeroP>
-          BC Nails Salon can be done in person at the salon or even your own
-          home! Please message or call to see about having a spa day in your
-          home!
+          Please message or call to see about booking an appointment.
         </HeroP>
-        <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP>
-        {/* <HeroH1> New Shared Location!</HeroH1>
-        <HeroP>
-          We're teaming up with Emotion Rescue Hair to create a one-stop beauty
-          destination! Located on South Fraser Way at Emotion Rescue Hair!
-        </HeroP>
-        <HeroP>3-33323, South Fraser Way, Abbotsford, BC V2S 2B2</HeroP> */}
+        <HeroP>Appointment Only at 604-853-0365</HeroP>
         <HeroBtnWrapper>
           <Button
             to="contact"
